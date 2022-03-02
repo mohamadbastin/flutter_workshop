@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_workshop/main_screen_online.dart';
 import 'package:flutter_workshop/professor_details_screen.dart';
 import 'data.dart';
 
@@ -17,7 +18,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.red,
       ),
-      home: const MyHomePage(title: 'CSE Department'),
+      home: const MyHomePageOnline(title: 'CSE Department'),
       // home: Container(
       //   color: Colors.white,
       // ),
